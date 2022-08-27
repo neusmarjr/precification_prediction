@@ -61,7 +61,7 @@ The data for this project were obtained from a public file available on the [kag
     6.2. Preparation of parameters
     6.3. Models training and test
 
-### 3.1 Production Strategy
+### 3.2 Production Strategy
 1. Loading the data
 2. Loading the adequation models
     2.1. Scaler
@@ -70,6 +70,11 @@ The data for this project were obtained from a public file available on the [kag
 4. Creation of the input structure
 5. Application of the prediction model
 6. Output of the result
+
+### 3.3 Deploy Strategy
+1. Use of the `poetry` library to create the environment and the package structure
+2. Use of the `docker` to create the container with the solution environment, maintaining the integrity of the built structure
+3. Deployment of the solution, with an interface built from the `streamlit` framework, on the `Heroku` cloud platform, ensuring the high availability of the solution
 
 ## 4.0 Solution Architecture
 ![image](https://github.com/neusmarjr/precification_prediction/blob/master/images/architecture.png)
