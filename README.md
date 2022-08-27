@@ -72,7 +72,7 @@ The data for this project were obtained from a public file available on the [kag
 6. Output of the result
 
 ## 4.0 Solution Architecture
-![image]()
+![image](https://github.com/neusmarjr/precification_prediction/blob/master/images/architecture.png)
 
 ## 5.0 Important Informations
 It is important to mention that we are dealing with a statistical model, where there are always associated errors. The objective proposed here would be the delivery of an MVP that can be used by the business area, which can be improved in subsequent development cycles;
