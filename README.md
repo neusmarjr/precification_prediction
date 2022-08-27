@@ -75,7 +75,7 @@ The data for this project were obtained from a public file available on the [kag
 1. Use of the `poetry` library to create the environment and the package structure
 2. Use of the `docker` to create the container with the solution environment, maintaining the integrity of the built structure
 3. Deployment of the solution, with an interface built from the `streamlit` framework, on the `Heroku` cloud platform, ensuring the high availability of the solution
-[<img alt="Heroku App" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Heroku_logo.svg/2560px-Heroku_logo.svg.png"/>](https://price-sale-prediction.herokuapp.com/)
+[<img alt="Heroku App" src="[https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Heroku_logo.svg/2560px-Heroku_logo.svg.png](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn9bQiBVei5RUWI-ZHMwe7lZhTg_Pl0cHZRjIaVSlpw7lTlORgTbMs7ZXinBpV9_sSa_k&usqp=CAU)"/>](https://price-sale-prediction.herokuapp.com/)
 
 ## 4.0 Solution Architecture
 ![image](https://github.com/neusmarjr/precification_prediction/blob/master/images/architecture.png)
