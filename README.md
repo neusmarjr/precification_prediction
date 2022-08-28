@@ -36,35 +36,57 @@ The data for this project were obtained from a public file available on the [kag
 ### 3.1 Research Strategy
 1. Removal of duplicate data
 2. Adequacy of data types
+
     2.1. `date` --> datetime64[ns]
+    
     2.2. `bathrooms` --> int64
+    
     2.3. `floors` --> int64
 3. Outlier analysis
+
     3.1. Z-score method
+    
     3.2. IQR method
+    
     3.3. boxplot visualization
 4. Feature engineering
+
     4.1. `waterfront view` - whether the property has a sea view (Yes, No)
+    
     4.2. `landscape-view` - whether the property has a landscape view (Yes, No)
+   
     4.3. `condition_evaluation` - concerns the condition of the property (Really Good, Good, Regular, Bad, Really Bad)
+    
     4.4. `grade_evaluation` - deals with the construction and design of the property (Good, Regular, Bad)
+    
     4.5. `price/sqft` - sale price for square feet of the property
+    
     4.6. `renovated` - whether the property has been renovated (Yes, No)
+    
     4.7. `season` - season of sale of the property (Spring, Summer,  Autumn, Winter)
 5. Descriptive analysis
+
     5.1. Univariate analysis
+    
     5.2. Bivariate analysis
+    
     5.3. Multivariate analysis
+    
     5.4. Analysis by maps
 6. Price & Sale Prediction Model
+
     6.1. Features selection
+    
     6.2. Preparation of parameters
+    
     6.3. Models training and test
 
 ### 3.2 Production Strategy
 1. Loading the data
 2. Loading the adequation models
+
     2.1. Scaler
+    
     2.2. Encoder
 3. Loading prediction models
 4. Creation of the input structure
